@@ -1,0 +1,25 @@
+{
+	"name": "Core: Element",
+	"description": "A very large core, Command variant of cores, can carry extreme amount of items, designed for long time or permanent missions",
+	"type": "CoreBlock",
+	"health": 32000,
+	"size": 8,
+	"itemCapacity": 100000,
+	"requirements": [
+	    {
+			"item": "plastanium",
+			"amount": 750
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 850
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 400
+		}
+	],
+	"buildVisibility": "debugOnly",
+//	"category": "effect",
+	"research": "vault"
+}

@@ -1,0 +1,74 @@
+{
+    //"type": "ItemTurret",
+    "name": "Ballast",
+    "description": "A large calibre railgun, launches projectiles at near light speed, Penetrating through multiple units, Some ammo can also bounce dealing more damage",
+    "health": 2500,
+    "size": 5,
+    "reload": 360,
+    "range": 400,
+    "recoil": 5,
+    "shootShake": 4,
+    "ammoUseEffect": "none",
+    "inaccuracy": 0,
+    "shots": 1,
+    "spread": 0,
+    "rotatespeed": 6,
+    "shootSound": "Cannon3",
+    "ammo": {
+        "thorium": {
+            "speed": 20,
+            "damage": 16,
+            "bulletWidth": 8,
+            "bulletHeight": 30,
+            "shootEffect": "shootBigSmoke",
+            "smokeEffect": "shootPyraFlame",
+            "hitEffect": "flakExplosionBig",
+            "knockback": 5,
+            "ammoMultiplier": 3,
+            "pierce": true,
+            "hitSize": 8
+        },
+        "thorge": {
+            "speed": 22,
+            "damage": 40,
+            "bulletWidth": 8,
+            "bulletHeight": 30,
+            "drag": 0.016,
+            "shootEffect": "shootBigSmoke",
+            "smokeEffect": "shootPyraFlame",
+            "hitEffect": "flakExplosionBig",
+            "knockback": 20,
+            "hitShake": 3,
+            "ammoMultiplier": 1,
+            "pierce": true
+            }
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 650
+        },
+        {
+            "item": "graphite",
+            "amount": 500
+        },
+        {
+            "item": "thorium",
+            "amount": 400
+        },
+        {
+            "item": "surge-alloy",
+            "amount": 550
+        },
+        {
+            "item": "plastanium",
+            "amount": 450
+        },
+        {
+            "item": "temper-alloy",
+            "amount": 425
+        }
+    ],
+    "category": "turret",
+    "research": "meltdown"
+}

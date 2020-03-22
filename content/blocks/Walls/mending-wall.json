@@ -1,0 +1,26 @@
+{
+	"name": "mending wall",
+	"localizedName": "Mending Wall"
+	"description": "Medium tolerance for damage, a very durable wall, slowly self heals",
+	"health": 800,
+	"size": 1,
+	"update": true,
+	"solid": true,
+	"BlockGroup": "walls",
+	"requirements": [
+	    {
+			"item": "temper-alloy",
+			"amount": 5
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 10
+		},
+		{
+			"item": "thorium",
+			"amount": 20
+		}
+	],
+	"category": "defense",
+	"research": "surge-wall"
+}

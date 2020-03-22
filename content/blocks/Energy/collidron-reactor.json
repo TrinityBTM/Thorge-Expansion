@@ -1,0 +1,62 @@
+{
+	"type": "ImpactReactor",
+	"name": "Collidron reactor",
+	"description": "Utilizes the phenomena that occurs when thorge particles are blasted together",
+	"health": 1000,
+	"itemCapacity": 10,
+	"size": 5,
+	"hasLiquids": true,
+	"powerProduction": 250,
+	"itemDuration": 250,
+	"generateEffect": "smeltsmoke",
+	"plasma0": "f3e979",
+	"plasma1": "f3e979",
+	"plasma2": "f2c6ca",
+	"plasma3": "f2c6ca",
+	"consumes": {
+		"power": 50.0,
+		"item": "thorge",
+		"liquid": {
+			"liquid": "cryogenLiquid",
+			"amount": 0.4
+		}
+	},
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 2000
+		},
+		{
+			"item": "metaglass",
+			"amount": 1500
+		},
+		{
+			"item": "graphite",
+			"amount": 1700
+		},
+		{
+			"item": "thorium",
+			"amount": 1200
+		},
+		{
+			"item": "silicon",
+			"amount": 2000
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 800
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 1200
+		},
+		{
+			"item": "temper-alloy",
+			"amount": 300
+		}
+	],
+	"category": "power",
+	"research": "impact-reactor",
+	"idleSound": "EnergyLoop2",
+	"idleSoundVolume": 0.5
+}

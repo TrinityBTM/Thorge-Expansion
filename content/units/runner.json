@@ -1,0 +1,33 @@
+{
+	"type": "groundUnit",
+	"name": "Runner",
+	"description": "A higher tier of crawler, has enough power to generate a minature nuclear explosion",
+	"speed": 0.3,
+	"health": 500,
+	"range": 10,
+	"drag": 0.2,
+	"rotatespeed": 0.1,
+	"mass": 2.2,
+	"weapon": {
+		"name": "nuclear-equip",
+		"length": 0,
+		"reload": 1,
+		"alternate": true,
+		"shootSound": "Cannon2",
+		"bullet": {
+		    "type":"BasicBulletType",
+			"speed": 1.1,
+			"damage": 1,
+			"bulletWidth": 0,
+			"bulletHeight": 0,
+			"instantDisappear": true,
+			"lifetime": 30,
+			"splashDamageRadius": 60,
+            "splashDamage": 400,
+            "shootEffect": "teleportOut",
+            "smokeEffect": "bigShockwave",
+            "keepVelocity":false,
+			"killShooter": true
+		}
+	}
+}

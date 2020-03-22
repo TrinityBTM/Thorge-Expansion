@@ -1,0 +1,38 @@
+{
+	"type": "MechPad",
+	"health": 640,
+	"mech": "Bravo-mech",
+	"name": "Bravo mech pad",
+	"description": "Transform to a heavy land unit class vessel, requires large amount of power",
+	"size": 4,
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 2000
+		},
+		{
+			"item": "thorium",
+			"amount": 1000
+		},
+		{
+			"item": "silicon",
+			"amount": 1500
+		},
+		{
+			"item": "graphite",
+			"amount": 2000
+		},
+		{
+			"item": "copper",
+			"amount": 2500
+		},
+		{
+			"item": "temper-alloy",
+			"amount": 800
+		}
+	],
+	"consumes": {
+		"power": 50.0
+	},
+	"category": "upgrade"
+}

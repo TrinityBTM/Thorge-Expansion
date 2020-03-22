@@ -1,0 +1,10 @@
+{
+	"name": "Cryogen",
+	"description": "A perfect state of cryofluid, extremely cold, capable of cooling anything in just a few seconds",
+	"temperature":-0.4,
+	"heatCapacity":2.0,
+	"viscosity":0.2,
+	"effect": "freezing",
+	"lightColor": "cdecfb77",
+	"color": "cdecfb"
+}

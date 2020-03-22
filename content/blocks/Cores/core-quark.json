@@ -1,0 +1,25 @@
+{
+	"name": "Core: Quark",
+	"description": "A large core, hauling variant of cores, can carry extreme amount of items, designed for massive item hauling",
+	"type": "CoreBlock",
+	"health": 16000,
+	"size": 7,
+	"itemCapacity": 50000,
+	"requirements": [
+	    {
+			"item": "plastanium",
+			"amount": 750
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 850
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 400
+		}
+	],
+	"buildVisibility": "debugOnly",
+//	"category": "effect",
+	"research": "vault"
+}

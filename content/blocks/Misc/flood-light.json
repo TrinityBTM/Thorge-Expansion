@@ -1,0 +1,25 @@
+{
+	"name": "Flood Light",
+	"description": "A large light designed to illuminate a large area",
+	"type": "LightBlock",
+	"buildVisibility": "lightingOnly",
+	"health": 160,
+	"size": 2,
+	"radius": 300,
+	"requirements": [
+	    {
+			"item": "silicon",
+			"amount": 40
+		},
+		{
+			"item": "titanium",
+			"amount": 20
+		}
+	],
+
+	"consumes": {
+		"power": 8.0
+	},
+
+	"category": "effect"
+}

@@ -1,0 +1,42 @@
+{
+	"name": "Quarry drilll",
+	"description": "A very large drill, if used properly it can mine materials in insanely fast speeds, requires large amount of energy and constant cryo fluid input to work, explosive",
+	"health": 1000,
+	//"type": "Drill",
+	"size": 5,
+	"tier": 4,
+	"drawRim": true,
+	"itemCapacity": 150,
+	"drillTime": 150,
+	"rotateSpeed": 5,
+	"drawMineItem": true,
+	"updateEffectChance": 0.01,
+	"consumes": {
+		"power": 30.0,
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.3,
+			"booster": true
+		}
+	},
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 80
+		},
+		{
+			"item": "silicon",
+			"amount": 40
+		},
+		{
+			"item": "graphite",
+			"amount": 20
+		},
+		{
+			"item": "temper-alloy",
+			"amount": 150
+		}
+	],
+	"category": "production",
+	"research": "blast-drill"
+}

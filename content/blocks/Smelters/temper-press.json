@@ -1,0 +1,75 @@
+{
+	//"type": "GenericSmelter",
+	"name": "Temper Press",
+	"description": "Melts extreme metals and cooling rapidly while also pressing it, results in a durable alloy",
+	"health": 360,
+	"liquidCapacity": 30,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 24,
+	"craftTime": 85,
+	"craftEffect": "teleportOut",
+	//"updateEffect": "freezing",
+	"flameColor": "88a4ff"
+	"consumes": {
+		"power": 20.0,
+		"items": {
+			"items": [
+			{
+				"item": "thorge",
+				"amount": 6
+			},
+			{
+				"item": "phase-fabric",
+				"amount": 6
+			},
+			{
+				"item": "graphite",
+				"amount": 3
+			},
+			{
+				"item": "plastanium",
+				"amount": 3
+			}
+		  ]
+		},
+		"liquid": {
+			"liquid": "cryogenLiquid",
+			"amount": 0.1
+		}
+	},
+	
+	"outputItem": {
+		"item": "temper-alloy",
+		"amount": 1
+	},
+	
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 120
+		},
+		{
+			"item": "thorium",
+			"amount": 300
+		},
+		{
+			"item": "silicon",
+			"amount": 400
+		},
+		{
+			"item": "graphite",
+			"amount": 500
+		},
+		{
+			"item": "plastanium",
+			"amount": 230
+		}
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

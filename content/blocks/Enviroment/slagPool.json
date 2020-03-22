@@ -1,0 +1,12 @@
+{
+	"name": "Slag pool",
+	"type": "Floor",
+	"drownTime": 1000,
+	"speedMultiplier": 0.1,
+	"liquidDrop": "slag",
+	"isLiquid": true,
+	"cacheLayer": "tar",
+    "blendGroup": "air",
+	"placeableOn": true,
+	"variants": 3
+}

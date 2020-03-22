@@ -1,0 +1,113 @@
+{
+	"type": "LiquidTurret",
+	"name": "Tsunami",
+	"description": "A larger more advance version of wave turret, ejects liquids further and stronger",
+	"health": 1000,
+	"size": 3,
+	"reload": 3,
+	"range": 180,
+	"recoil": 2,
+	"shootShake": 1,
+	"ammoUseEffect": "none",
+	"inaccuracy": 3,
+	"shots": 3,
+	"spread": 8,
+	"rotatespeed": 12,
+	"activeSound": "spray",
+	"hasLiquids": true,
+	"ammo": {
+		"water": {
+			"type": "LiquidBulletType",
+			"drag": 0.03,
+			"speed": 12,
+			"knockback": 0.5,
+			"ammoMultiplier": 1,
+			"liquid": "water"
+		},
+
+		"slag": {
+			"type": "LiquidBulletType",
+			"drag": 0.08,
+			"speed": 12,
+			"knockback": 0.1,
+			"ammoMultiplier": 1,
+			"damage": 2,
+			"liquid": "slag"
+		},
+
+		"cryofluid": {
+			"type": "LiquidBulletType",
+			"drag": 0.01,
+			"speed": 12,
+			"knockback": 0.3,
+			"ammoMultiplier": 1,
+			"liquid": "cryofluid"
+		},
+
+		"oil": {
+			"type": "LiquidBulletType",
+			"drag": 0.07,
+			"speed": 12,
+			"knockback": 0.2,
+			"ammoMultiplier": 1,
+			"liquid": "oil"
+		},
+		
+		"acidLiquid": {
+			"type": "LiquidBulletType",
+			"drag": 0.07,
+			"speed": 12,
+			"knockback": 0.2,
+			"damage": 3,
+			"liquid": "acidLiquid",
+			"ammoMultiplier": 1,
+            "status": {             
+             "name": "Corroding",
+             "speedMultiplier": 0.8,
+             "armorMultiplier": 0.7,
+             "damage": 0.1,
+             "effect": "overdriven"
+           }
+		},
+		
+		"cryogenLiquid": {
+			"type": "LiquidBulletType",
+			"drag": 0.02,
+			"speed": 12,
+			"knockback": 0.4,
+			"ammoMultiplier": 1,
+			"liquid": "cryogenLiquid",
+			"status": {
+             "name": "Jammed",
+             "speedMultiplier": 0.1,
+             "armorMultiplier": 0.8,
+             "effect": "hitFuse"
+           }
+		}
+
+	},
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 300
+		},
+		{
+			"item": "graphite",
+			"amount": 300
+		},
+		{
+			"item": "thorium",
+			"amount": 200
+		},
+		{
+			"item": "metaglass",
+			"amount": 350
+		},
+		{
+			"item": "silicon",
+			"amount": 350
+		}
+	],
+	"category": "turret",
+	"research": "wave"
+}

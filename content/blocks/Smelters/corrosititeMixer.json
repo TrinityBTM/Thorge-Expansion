@@ -1,0 +1,62 @@
+{
+	"type": "Fracker",
+	"name": "Corrositite acid mixer",
+	"description": "Aggressively mixes oil and Corrositite to make acid, A very unstable liquid, essential for more potent explosives",
+	"health": 360,
+	"liquidCapacity": 50,
+	"result": "acidLiquid",
+	"pumpAmount": 0.3,
+	"size": 3,
+	"drawLiquidLight":true,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"rotateSpeed": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 12.0,
+		"items": {
+			"items": [
+			{
+				"item": "corrositite",
+				"amount": 2
+			}
+		  ]
+		},
+		"liquid": {
+			"liquid": "oil",
+			"amount": 0.3
+		}
+	},
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 400
+		},
+		{
+			"item": "thorium",
+			"amount": 170
+		},
+		{
+			"item": "silicon",
+			"amount": 120
+		},
+		{
+			"item": "metaglass",
+			"amount": 80
+		},
+		{
+			"item": "graphite",
+			"amount": 200
+		},
+		{
+			"item": "titanium",
+			"amount": 220
+		}
+	],
+	"category": "crafting",
+	"research": "cryogenMixer",
+	"idleSound": "extractorLiquid",
+	"idleSoundVolume": 0.2
+}

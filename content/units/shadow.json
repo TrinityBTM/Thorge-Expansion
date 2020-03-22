@@ -1,0 +1,42 @@
+{
+	"type": "hoverUnit",
+	"name": "Shadow fighter",
+	"description": "A fast hover unit, rapidly fires a projectile that does small Area damage",
+	"speed": 0.52,
+	"flying": true,
+	"health": 120,
+	"drag": 0.2,
+	"engineOffset": 5.5,
+	"rotatespeed": 9999,
+	"mass": 8,
+	"range": 160,
+	"weapon": {
+		"name": "Gatling",
+		"length": 2,
+		"width": 1.5,
+		"reload": 20,
+		"shots": 1,
+		"spacing": 3,
+		"inaccuracy": 6,
+		"alternate": true,
+		"shotDelay": 0,
+		"shootSound": "shootBig",
+		"bullet": {
+			"type": "BasicBulletType",
+			"speed": 6,
+			"damage": 2,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "none",
+			"hitEffect": "hitBulletSmall",
+			"lifetime": 60,
+			"inaccuracy": 6,
+			"bulletShrink": 0,
+			"splashDamage": 2,
+			"splashDamageRadius": 30,
+			"bulletSprite": "thorge-ex-energy",
+			"splashDamageRadius": 30
+		}
+	}
+}

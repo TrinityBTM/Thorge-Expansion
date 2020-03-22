@@ -1,0 +1,37 @@
+{
+	"type": "groundUnit",
+	"name": "Hammer mech",
+	"description": "Stripped down titan mech hull, equipped with a bullet drill, does extreme continuous damage",
+	"speed": 0.09,
+	"health": 220,
+	"range": 10,
+	"drag": 0.2,
+	"rotatespeed": 0.1,
+	"mass": 2.2,
+	"weapon": {
+		"name": "Hammer-equip",
+		"length": 1.5,
+		"reload": 20,
+		"alternate": true,
+		"shots": 5,
+		"shotDelay": 40,
+		"spacing":0,
+		"shootSound": "missile",
+		"bullet": {
+		    "type":"BasicBulletType",
+			"speed": 5,
+			"damage": 8,
+			"bulletWidth": 0.1,
+			"bulletHeight": 0.1,
+			"shootEffect": "none",
+			"smokeEffect": "shootBigSmoke2",
+			"hitEffect": "hitBulletSmall",
+			"lifetime": 6,
+            "inaccuracy": 2,
+			"frontColor": "000000",
+			"backColor": "000000",
+			"trailColor": "000000",
+            "bulletShrink":0
+		}
+	}
+}

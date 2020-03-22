@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Volatile Spore Pod",
+	"description": "Spore cultivated to accumulate explosive particle inside it, can be used for stronger explosives, dont use as a fuel",
+	"explosiveness": 0.8,
+	"radioactivity": 0,
+	"flammability": 0.2,
+	"color": "ff466c"
+}

@@ -1,0 +1,60 @@
+{
+	"type": "ChargeTurret",
+	"name": "Tesla",
+	"description": "An electrical Anti-Air turret, Charges then shoots arcs around itself",
+	"health": 960,
+	"size": 2,
+	"reload": 60,
+	"range": 200,
+	"shootShake": 3,
+	"ammoUseEffect": "none",
+	"inaccuracy": 3,
+	"shootCone": 360,
+	"shots": 1,
+	"rotatespeed": 0,
+	"shootSound": "EnergyHit",
+	"powerUse": 2,
+	
+	"chargeTime": 10,
+	"chargeEffects": 2,
+	"chargeMaxDelay": 12,
+	"chargeEffect": "lightningCharge",
+	
+	"targetAir": true,
+    "targetGround": false,
+	
+	"shootType": {
+	        "type": "BombBulletType",
+			"speed": 0,
+			"damage": 30,
+			"bulletWidth": 0,
+			"bulletHeight": 0,
+			"hitEffect": "teleportOut",
+			"lifetime": 2,
+			"splashDamageRadius": 65,
+			"splashDamage": 6,
+			"lightining": 3,
+			"instantDisappear": true,
+			"lightningLength": 15,
+	},
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 250
+		},
+		{
+			"item": "graphite",
+			"amount": 200
+		},
+		{
+			"item": "titanium",
+			"amount": 400
+		},
+		{
+			"item": "silicon",
+			"amount": 100
+		}
+	],
+	"category": "turret",
+	"research": "arc"
+}

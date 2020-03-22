@@ -1,0 +1,37 @@
+{
+    "size": 3,
+    "health": 360,
+    "update": true,
+    "solid": true,
+    "hasItems": true,
+    "configurable": true,
+    "itemCapacity": 120,
+    "localizedName": "Nuclear detonator",
+	"description": "A modified nuclear reactor repurposed to explode violently, Kills any unit nearby friendly or not, When theres no more light for your way, then detonate this to light it up again",
+    "category": "effect",
+    //"baseExplosiveness": 1100,
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 1500
+        },
+        {
+            "item": "silicon",
+            "amount": 800
+        },
+        {
+            "item": "thorium",
+            "amount": 500
+        }
+    ],
+    "consumes": {
+        "items": {
+            "items": [
+                {
+                    "item": "blast-compound",
+                    "amount": 120
+                }
+            ]
+        }
+    }
+}

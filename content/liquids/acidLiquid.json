@@ -1,0 +1,10 @@
+{
+	"name": "Acid",
+	"description": "A mixture of a flammable and a corrosive substances results in this potent and corrosive liquid",
+	"temperature":0.8,
+	"flammability":0.0,
+	"explosiveness":0.8,
+	"viscosity":0.9,	
+	"color": "bfe084",
+	"lightColor": "bfe08477"
+}

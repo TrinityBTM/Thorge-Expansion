@@ -1,0 +1,7 @@
+{
+	"name": "Dry Grass",
+	"dragMultiplier": 1.4,
+	"speedMultiplier": 0.5,
+	"attributes": { "array": [ 0, 0.1, 0, 1] },
+	"type": "Floor"
+}

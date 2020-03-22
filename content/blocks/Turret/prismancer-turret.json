@@ -1,0 +1,52 @@
+{
+//"type": "LaserTurret",
+"name": "[red](Beta)[]Prismancer",
+"description": "Imagine meltdown, but stronger, This is a beta block so change is coming",
+"health": 10000,
+"size": 7,
+"reload": 80,
+"shootShake": 2,
+"range": 500,
+//"shootType": "meltdownLaser",
+"shootEffect": "shootBigSmoke2",
+"heatColor": "77cbf9",
+"shootCone": 40,
+"recoil": 4,
+"firingMoveFract": 0.07,
+"shootDuration": 880,
+"powerUse": 30,
+"shootSound": "Cannon2",
+"activeSound": "ArcLoop3",
+"activeSoundVolume": 2,
+"consumes": {
+  "liquid": {
+    "liquid": "cryofluid",
+    "amount": 0.5
+  }
+}
+//Todo Make this excessively expensive
+"requirements": [
+  {
+			"item": "copper",
+			"amount": 650
+		},
+		{
+			"item": "graphite",
+			"amount": 500
+		},
+		{
+			"item": "thorium",
+			"amount": 400
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 450
+		},
+		{
+			"item": "plastanium",
+			"amount": 550
+		}
+]
+"category": "turret",
+"research": "meltdown"
+}

@@ -1,0 +1,61 @@
+{
+	"name": "Essence factory",
+	"description": "Produces Mobile Area detonation-heal units",
+	"type": "UnitFactory",
+	"unitType": "essence",
+	"size": 3,
+	"produceTime": 480,
+	"health": 360,
+	"maxSpawn": 3,
+	"consumes": {
+		"power": 12.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 30
+				},
+				{
+					"item": "titanium",
+					"amount": 25
+				},
+				{
+					"item": "thorium",
+					"amount": 12
+				}, 
+				{
+					"item": "phase-fabric",
+					"amount": 2
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 1500
+		},
+		{
+			"item": "lead",
+			"amount": 1000
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 400
+		},
+		{
+			"item": "titanium",
+			"amount": 300
+		},
+		{
+			"item": "silicon",
+			"amount": 300
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 40
+		}
+	]
+}

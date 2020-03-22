@@ -1,0 +1,25 @@
+{
+	"name": "Core: Atoma",
+	"description": "The first iteration of a core using temperite as its foundation, in result of its strength, it's capable of  withstanding tremendous damage",
+	"type": "CoreBlock",
+	"health": 8000,
+	"size": 6,
+	"itemCapacity": 25000,
+	"requirements": [
+	    {
+			"item": "plastanium",
+			"amount": 750
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 850
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 400
+		}
+	],
+//	"category": "effect",
+	"buildVisibility": "debugOnly",
+	"research": "vault"
+}

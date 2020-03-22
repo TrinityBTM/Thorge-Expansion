@@ -1,0 +1,73 @@
+{
+	"name": "Reaper factory",
+	"description": "Produces Flag tech gunship, capable of tanking and destroying through thick walls",
+	"type": "UnitFactory",
+	"unitType": "reaper",
+	"size": 6,
+	"produceTime": 12000,
+	"health": 1440,
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 35.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 1000
+				},
+				{
+					"item": "graphite",
+					"amount": 1000
+				},
+				{
+					"item": "titanium",
+					"amount": 1000
+				},
+				{
+					"item": "thorium",
+					"amount": 1000
+				}, 
+				{
+					"item": "surge-alloy",
+					"amount": 800
+				}, 
+				{
+					"item": "plastanium",
+					"amount": 300
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 1500
+		},
+		{
+			"item": "lead",
+			"amount": 1200
+		},
+		{
+			"item": "graphite",
+			"amount": 1300
+		},
+		{
+			"item": "titanium",
+			"amount": 1200
+		},
+		{
+			"item": "silicon",
+			"amount": 1500
+		},
+		{
+			"item": "plastanium",
+			"amount": 2000
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 400
+		}
+	]
+}

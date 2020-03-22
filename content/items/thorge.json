@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Thorge",
+	"description": "Extremely dangerous and unstable resource, can be used for stronger explosives or can be tuned down as a building material",
+	"explosiveness": 2,
+	"radioactivity": 5,
+	"flammability": 0.8,
+	"cost": 3.0,
+	"color": "fcbc94"
+}

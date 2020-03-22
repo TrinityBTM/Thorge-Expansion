@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Thorn compound",
+	"description": "Never let this thing out of it's factory, i mean dude\n\n[#FFC382] it is seriously glowing\n",
+	"explosiveness": 50,
+	"radioactivity": 0,
+	"flammability": 25,
+	"cost": 3.0,
+	"color": "ff7f00"
+}

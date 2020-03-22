@@ -1,0 +1,78 @@
+{
+	"type": "ItemTurret",
+	"name": "Thermos Flamethrower",
+	"description": "A larger more advance Scorch, fires large napalm blobs, enough to set everything on fire",
+	"health": 800,
+	"size": 2,
+	"reload": 2,
+	"range": 120,
+	"recoil": 1,
+	"shootShake": 0.2,
+	"ammoUseEffect": "none",
+	"inaccuracy": 10,
+	"shots": 2,
+	"spread": 5,
+	"rotatespeed": 3,
+	"shootSound": "flame2",
+	"ammo": {
+		"pyratite": {
+			"speed": 8.0,
+			"damage": 5,
+			"bulletWidth": 10,
+			"bulletHeight": 15,
+			"smokeEffect": "shootSmallFlame",
+			"hitEffect": "none",
+			"frontColor": "ffb855",
+			"backColor": "db401c",
+			"knockback": 2,
+			"pierce": true,
+			"collidesTiles": true,
+			"hitSize": 4,
+			"drag": 0.05,
+			"bulletSprite": "thorge-ex-sonar",
+			"incendAmount": 3,
+			"incendSpread": 8,
+			"incendChance": 0.5,
+			"trailEffect": "incendTrail"
+		},
+		"corrositite": {
+			"speed": 8.0,
+			"damage": 10,
+			"bulletWidth": 10,
+			"bulletHeight": 15,
+			"smokeEffect": "shootPyraFlame",
+			"hitEffect": "none",
+			"frontColor": "ffc966",
+			"backColor": "db512d",
+			"pierce": true,
+			"collidesTiles": true,
+			"hitSize": 4,
+			"drag": 0.03,
+			"bulletSprite": "thorge-ex-sonar",
+			"incendAmount": 3,
+			"incendSpread": 8,
+			"incendChance": 1,
+			"trailEffect": "incendTrail"
+		}
+	},
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 400
+		},
+		{
+			"item": "graphite",
+			"amount": 300
+		},
+		{
+			"item": "thorium",
+			"amount": 80
+		},
+		{
+			"item": "plastanium",
+			"amount": 120
+		}
+	],
+	"category": "turret",
+	"research": "scorch"
+}

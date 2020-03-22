@@ -1,0 +1,53 @@
+{
+	"name": "Chaos Array factory",
+	"description": "Produces heavy battle tech mechs, capable of attacking large areas",
+	"type": "UnitFactory",
+	"unitType": "chaos-array",
+	"size": 4,
+	"produceTime": 3600,
+	"health": 640,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 10.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 250
+				},
+				{
+					"item": "graphite",
+					"amount": 120
+				},
+				{
+					"item": "titanium",
+					"amount": 250
+				},
+				{
+					"item": "thorium",
+					"amount": 100
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 1000
+		},
+		{
+			"item": "titanium",
+			"amount": 800
+		},
+		{
+			"item": "silicon",
+			"amount": 600
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 100
+		}
+	]
+}

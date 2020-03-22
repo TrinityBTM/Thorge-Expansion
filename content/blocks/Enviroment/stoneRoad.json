@@ -1,0 +1,6 @@
+{
+	"name": "Stone road",
+	"speedMultiplier": 1.5,
+    "variants": 3,
+	"type": "Floor"
+}

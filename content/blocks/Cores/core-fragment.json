@@ -1,0 +1,28 @@
+{
+	"name": "Core: Fragment",
+	"description": "First core iteration that can be built by players, Can only store small amount of items but can share it to existing cores, due to weird properties unloaders cannot unload items from this core and once built cannot be deconstructed",
+	"type": "CoreBlock",
+	"health": 620,
+	"breakable": true,
+	"destructible": true,
+	"size": 2,
+	"itemCapacity": 50,
+	"unloadable": false,
+	"requirements": [
+	    {
+			"item": "plastanium",
+			"amount": 750
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 850
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 400
+		}
+	],
+	"buildVisibility": "debugOnly",
+//	"category": "effect",
+	"research": "vault"
+}

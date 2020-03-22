@@ -1,0 +1,129 @@
+{
+	"type": "ItemTurret",
+	"name": "Outburst",
+	"description": "Uses large amount of explosive ammo to generate a powerfull shockwave",
+	"health": 1200,
+	"size": 3,
+	"reload": 240,
+	"range": 200,
+	"recoil": 0,
+	"shootShake": 4,
+	"ammoUseEffect": "none",
+	"inaccuracy": 0,
+	"shootCone": 360,
+	"rotatespeed": 0,
+	"shootSound": "release",
+	"ammo": {
+		"pyratite": {
+			"type": "BombBulletType",
+			"speed": 0,
+			"damage": 1,
+			"bulletWidth": 0,
+			"bulletHeight": 0,
+			"hitEffect": "impactShockwave",
+			"smokeEffect": "impactcloud",
+			"frontColor": "ffff5c",
+			"backColor": "ffff2a",
+			"lifetime": 5,
+			"hitSize": 8,
+			"splashDamageRadius": 200,
+			"splashDamage": 2,
+			"knockback": 50000,
+			"ammoMultiplier": 1,
+			"instantDisappear": true,
+			"reloadMultiplier": 0.5
+		},
+
+		"blast-compound": {
+			"type": "BombBulletType",
+			"speed": 0,
+			"damage": 2,
+			"bulletWidth": 0,
+			"bulletHeight": 0,
+			"hitEffect": "nuclearShockwave",
+			"frontColor": "ffff5c",
+			"backColor": "ffff2a",
+			"lifetime": 5,
+			"hitSize": 8,
+			"splashDamageRadius": 200,
+			"splashDamage": 20,
+			"ammoMultiplier": 2,
+            "instantDisappear": true,			
+			"reloadMultiplier": 1
+		},
+
+		"surge-alloy": {
+			"type": "BombBulletType",
+			"speed": 0,
+			"damage": 2,
+			"bulletWidth": 0,
+			"bulletHeight": 0,
+			"hitEffect": "teleportOut",
+			"frontColor": "ffff5c",
+			"backColor": "ffff2a",
+			"lifetime": 5,
+			"hitSize": 8,
+			"splashDamageRadius": 200,
+			"splashDamage": 15,
+			"lightining": 4,
+			"lightningLength": 20,
+			"ammoMultiplier": 1,
+            "instantDisappear": true,			
+			"reloadMultiplier": 2
+		},
+
+		"plastanium": {
+			"type": "BombBulletType",
+			"speed": 0,
+			"damage": 2,
+			"bulletWidth": 0,
+			"bulletHeight": 0,
+			"hitEffect": "nuclearShockwave",
+			"frontColor": "ffff5c",
+			"backColor": "ffff2a",
+			"lifetime": 5,
+			"hitSize": 8,
+			"splashDamageRadius": 200,
+			"splashDamage": 10,
+			"fragBullets": 20,
+			"ammoMultiplier": 3,
+			"reloadMultiplier": 0.8,
+            "instantDisappear": true,			
+			"fragBullet": {
+				"damage": 30,
+				"speed": 4,
+				"bulletWidth": 10,
+				"bulletHeight": 12,
+				"lifetime": 50,
+				"bulletShrink": 1,
+				"frontColor": "fffac6",
+				"backColor": "d8d97f"
+			}
+		}
+
+	},
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 650
+		},
+		{
+			"item": "graphite",
+			"amount": 500
+		},
+		{
+			"item": "thorium",
+			"amount": 400
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 550
+		},
+		{
+			"item": "plastanium",
+			"amount": 450
+		}
+	],
+	"category": "turret",
+	"research": "meltdown"
+}

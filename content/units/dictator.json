@@ -1,0 +1,28 @@
+{
+	"type": "groundUnit",
+	"name": "Dictator",
+	"description": "Dictates your future, Uses Dictator drones",
+	"speed": 0.003,
+	"maxVelocity": 0.68,
+	"flying": false,
+	"drag": 0.2,
+	"health": 75000,
+	"range": 360,
+	"mass": 10000,
+	"hitsize": 40,
+	"rotatespeed": 0.01,
+	"weapon": {
+		"name": "dictator-equip",
+		"length": 25,
+		"width": 50.0,
+		"reload": 4,
+		"shots": 4,
+		"shotDelay": 0,
+		"spacing": 3,
+		"velocityRnd": 0.4,
+		"shake": 8,
+		"inaccuracy": 50,
+		"alternate": true,
+		"bullet": "standardThoriumBig"
+	}
+}

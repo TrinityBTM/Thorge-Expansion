@@ -1,0 +1,73 @@
+{
+	"type": "GenericCrafter",
+	"name": "Volatile mixer",
+	"description": "Mixes multiple flammable compounds to produce a incredibly explosive item\n\nSprite is temporary",
+	"health": 360,
+	"liquidCapacity": 30,
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"craftTime": 60,
+	"updateEffect": "melting",
+	"consumes": {
+		"power": 30.0,
+		"items": {
+			"items": [
+			{
+				"item": "explosive-spore",
+				"amount": 10
+			},
+			{
+				"item": "inciendary-spore",
+				"amount": 10
+			},
+			{
+				"item": "blast-compound",
+				"amount": 10
+			},
+			{
+				"item": "spore-pod",
+				"amount": 10
+			}
+		  ]
+		},
+		"liquid": {
+			"liquid": "acidLiquid",
+			"amount": 0.2
+		}
+	},
+	
+	"outputItem": {
+		"item": "thorn-compound",
+		"amount": 1
+	},
+	
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 1000
+		},
+		{
+			"item": "thorium",
+			"amount": 400
+		},
+		{
+			"item": "silicon",
+			"amount": 800
+		},
+		{
+			"item": "graphite",
+			"amount": 400
+		},
+		{
+            "item": "temper-alloy",
+            "amount": 100
+        }
+	],
+	"category": "crafting",
+	"research": "blast-mixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,38 @@
+{
+	"type": "MechPad",
+	"health": 640,
+	"mech": "Excalibur-ship",
+	"name": "Excalibur ship pad",
+	"description": "Transform to a heavy air unit class vessel, requires large amount of power",
+	"size": 4,
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 1000
+		},
+		{
+			"item": "thorium",
+			"amount": 800
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 1000
+		},
+		{
+			"item": "graphite",
+			"amount": 1500
+		},
+		{
+			"item": "copper",
+			"amount": 1500
+		},
+		{
+			"item": "temper-alloy",
+			"amount": 500
+		}
+	],
+	"consumes": {
+		"power": 50.0
+	},
+	"category": "upgrade"
+}

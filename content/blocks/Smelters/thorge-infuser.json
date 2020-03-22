@@ -1,0 +1,62 @@
+{
+	"type": "GenericSmelter",
+	"name": "Thorge fuser",
+	"description": "Fuses alot of thorium and surge to make thorge, requires lots of energy to use",
+	"health": 360,
+	"liquidCapacity": 50,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 80,
+	"craftTime": 115,
+	"craftEffect": "teleport",
+	"updateEffect": "melting",
+	"consumes": {
+		"power": 130.0,
+		"items": {
+			"items": [
+			    {
+					"item": "thorium",
+					"amount": 10
+				},
+				{
+					"item": "surge-alloy",
+					"amount": 5
+				}
+			]
+		},
+		"liquid": {
+			"liquid": "acidLiquid",
+			"amount": 0.4
+		}
+	},
+	
+	"outputItem": {
+		"item": "thorge",
+		"amount": 4
+	},
+	
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 300
+		},
+		{
+			"item": "thorium",
+			"amount": 500
+		},
+		{
+			"item": "silicon",
+			"amount": 600
+		},
+		{
+			"item": "graphite",
+			"amount": 500
+		}
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

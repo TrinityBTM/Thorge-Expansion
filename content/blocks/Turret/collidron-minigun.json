@@ -1,0 +1,67 @@
+{
+	//"type": "PowerTurret",
+	"name": "Collidron minigun",
+	"description": "A large laser minigun, only uses large amounts of energy as its ammo, extremely powerfull",
+	"health": 3400,
+	"size": 5,
+	"reload": 5,
+	"range": 300,
+	"recoil": 3,
+	"shootShake": 3,
+	"ammoUseEffect": "none",
+	"inaccuracy": 3,
+	"heatColor": "#e84600",
+	"shots": 1,
+	"rotatespeed": 3,
+	"shootSound": "shootBig",
+	"powerUse": 60,
+	"xRand": 4,
+	"shootType": {
+		"keepVelocity": false,
+		"type": "BasicBulletType",
+		"speed": 15.0,
+		"damage": 12,
+		"bulletWidth": 20,
+		"bulletHeight": 10,
+		"shootEffect": "shootBig2",
+		"smokeEffect": "shootBigSmoke",
+		"hitEffect": "hitBulletBig",
+		"lifetime": 120,
+		"inaccuracy": 3,
+		"frontColor": "e5edff",
+		"backColor": "9bbdff",
+		"trailColor": "e5edff",
+		"splashDamage": 12,
+		"splashDamageRadius": 15,
+		"bulletShrink": 0,
+		"bulletSprite": "thorge-ex-energy"
+	},
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 1250
+		},
+		{
+			"item": "graphite",
+			"amount": 1000
+		},
+		{
+			"item": "thorium",
+			"amount": 800
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 1000
+		},
+		{
+			"item": "plastanium",
+			"amount": 850
+		},
+		{
+			"item": "temper-alloy",
+			"amount": 435
+		}
+	],
+	"category": "turret",
+	"research": "meltdown"
+}

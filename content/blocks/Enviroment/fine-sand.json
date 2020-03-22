@@ -1,0 +1,8 @@
+{
+	"name": "Fine sand",
+	"speedMultiplier": 0.4,
+    "variants": 3,
+    "playerUnmineable": true,
+    "itemDrop": "sand",
+	"type": "Floor"
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Force beacon",
+    "description": "A larger more advance force projector, exponentially stronger and recovers from overheat faster, leaving small gaps for the enemy to attack",
+    "type": "forceProjector",
+    "health": 1000,
+    "size": 5,
+    "radius": 200,
+    "phaseUseTime": 500,
+    "phaseRadiusBoost": 150,
+    "cooldownNormal": 3.0,
+    "cooldownLiquid": 1.75,
+    "cooldownBrokenBase": 8.5,
+    "basePowerDraw": 1.5,
+    "breakage": 5500,
+    "consumes":{
+        "power": 15.5,
+        "items": {
+            "items": [
+                { "item": "surge-alloy", "amount": 1}
+            ]
+        },
+    },
+    "requirements": [
+        { "item": "copper", "amount": 10 }
+    ],
+    "category": "effect",
+    "research": "force-projector"
+}

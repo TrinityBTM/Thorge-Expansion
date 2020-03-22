@@ -1,0 +1,60 @@
+{
+	"type": "Separator",
+	"name": "Spore Terrarium",
+	"description": "Cultivates more types of spore pods, requires alot of water",
+	"health": 360,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 20,
+	"size": 3,
+	"spinnerSpeed": 20,
+	"color": "ffffff"
+	"category": "production",
+	"research": "cultivator",
+
+	"results": [
+	    {
+			"item": "spore-pod",
+			"amount": 5
+		},
+		{
+			"item": "explosive-spore",
+			"amount": 3
+		},
+		{
+			"item": "inciendary-spore",
+			"amount": 3
+		}
+	],
+
+	"consumes": {
+		"power": 5,
+		"liquid": {
+			"liquid": "water",
+			"amount": 2
+		}
+	},
+
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 350
+		},
+		{
+			"item": "lead",
+			"amount": 250
+		},
+		{
+			"item": "silicon",
+			"amount": 100
+		},
+		{
+			"item": "titanium",
+			"amount": 200
+		},
+		{
+			"item": "thorium",
+			"amount": 100
+		}
+	]
+}

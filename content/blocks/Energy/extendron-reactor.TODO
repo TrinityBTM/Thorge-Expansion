@@ -1,0 +1,61 @@
+{
+	"type": "ImpactReactor",
+	"name": "Extendron reactor",
+	"description": "Requires little fuel, produces power by passing large amount of energy through multiple sub-dimensions, the longer it stays alive the more it can generate",
+	"itemCapacity": 5,
+	"size": 8,
+	"hasLiquids": true,
+	"powerProduction": 1500,
+	"warmupSpeed": 0.001,
+	"itemDuration": 250,
+	"plasma0": "e2e979",
+	"plasma1": "e2e979",
+	"plasma2": "e1c6ca",
+	"plasma3": "e1c6ca",
+	"consumes": {
+		"power": 1.0,
+		"item": "thorn-compound",
+		"liquid": {
+			"liquid": "cryogenLiquid",
+			"amount": 0.8
+		}
+	},
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 4000
+		},
+		{
+			"item": "metaglass",
+			"amount": 5500
+		},
+		{
+			"item": "graphite",
+			"amount": 3700
+		},
+		{
+			"item": "thorium",
+			"amount": 2200
+		},
+		{
+			"item": "silicon",
+			"amount": 4000
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 1200
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 2200
+		},
+		{
+			"item": "temper-alloy",
+			"amount": 800
+		}
+	],
+	"category": "power",
+	"research": "impact-reactor",
+	"idleSound": "EnergyLoop2",
+	"idleSoundVolume": 0.5
+}

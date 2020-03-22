@@ -1,0 +1,47 @@
+{
+	"type": "groundUnit",
+	"name": "Immobilizer",
+	"description": "Uses a focused emp blast to shutdown units, doesn't do that much damage",
+	"speed": 0.02,
+	"health": 300,
+	"range": 1200,
+	"drag": 0.2,
+	"rotatespeed": 0.03,
+	"mass": 30,
+	"shootCone": 0,
+	"targetAir": true,
+	"weapon": {
+		"name": "immobilizer-equip",
+		"length": 0,
+		"inaccuracy": 0,
+		"recoil": 2,
+		"width": 0,
+		"reload": 220,
+		"alternate": false,
+		"shots": 3,
+		"spacing": 24,
+		"shootSound": "laser",
+		"bullet":  {
+			"speed": 4.0,
+			"damage": 5,
+			"bulletWidth": 28,
+			"bulletHeight": 24,
+			"smokeEffect": "none",
+			"hitEffect": "none",
+			"frontColor": "bae3ff",
+			"backColor": "0098ff",
+			"knockback": 12,
+			"pierce": true,
+			"collidesTiles": true,
+			"hitSize": 4,
+			"bulletSprite": "thorge-ex-sonar",
+			"statusDuration": 120,
+			"status": {
+                   "name": "jammed",
+                   "speedMultiplier": -1,
+                   "damage": 0,
+                   "effect": "lightningCharge"
+               }
+		    }
+		}
+	}

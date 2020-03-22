@@ -1,0 +1,34 @@
+{
+	"type": "groundUnit",
+	"name": "Long Shot mech",
+	"description": "Long range sniper mech, It's slow movement and long range makes it deadly",
+	"speed": 0.02,
+	"health": 380,
+	"range": 60,
+	"drag": 0.2,
+	"rotatespeed": 0.2,
+	"flying": false,
+	"mass": 4,
+	"weapon": {
+		"name": "longshot-equip",
+		"length": 1.5,
+		"reload": 120,
+		"alternate": true,
+		"width": 5.5,
+		"shots": 1,
+		"shootSound": "shootBig",
+		"bullet": {
+			"type": "BasicBulletType",
+			"speed": 5,
+			"damage": 30,
+			"bulletWidth": 5,
+			"bulletHeight": 8,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootSmallFlame",
+			"hitEffect": "hitBulletSmall",
+			"lifetime": 58,
+			"inaccuracy": 3,
+			"bulletShrink": 0
+		}
+	}
+}

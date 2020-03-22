@@ -1,0 +1,73 @@
+/*
+Soon to be scripted
+Charges up and stun the enemy
+before pulling any enemies around it 
+then explode
+*/
+{
+	"type": "ItemTurret",
+	"buildVisibility": "debugOnly",
+	"name": "Guardian turret",
+	"description": "Lays mines around itself whenever an enemy is present near itself,",
+	"health": 1200,
+	"size": 3,
+	"reload": 550,
+	"range": 800,
+	"recoil": 0,
+	"shootShake": 1,
+	"ammoUseEffect": "none",
+	"inaccuracy": 0,
+	"shootCone": 360,
+	"rotatespeed": 0,
+	"shootSound": "release",
+	"ammo": {
+		"blast-compound": {
+			"type": "BombBulletType",
+			"speed": 0,
+			"damage": 2,
+			"bulletWidth": 0,
+			"bulletHeight": 0,
+			"hitEffect": "nuclearShockwave",
+            "instantDisappear": true,			
+			"fragBullets": 15
+			"fragBullet": {
+		        "type": "FlakBulletType",
+				"speed": 8,
+				"drag": 0.02,
+				"explodeRange": 40,
+				"bulletWidth": 10,
+				"bulletHeight": 10,
+				"lifetime": 600,
+				"splashDamageRadius": 40,
+			    "splashDamage": 10,
+				"bulletShrink": 0,
+				"frontColor": "cccccc",
+				"backColor": "aaaaaa"
+			}
+		}			
+	},
+	"requirements": [
+	    {
+			"item": "silicon",
+			"amount": 1200
+		},
+		{
+			"item": "graphite",
+			"amount": 2000
+		},
+		{
+			"item": "thorium",
+			"amount": 1000
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 1200
+		},
+		{
+			"item": "plastanium",
+			"amount": 900
+		}
+	],
+	"category": "turret",
+	"research": "meltdown"
+}

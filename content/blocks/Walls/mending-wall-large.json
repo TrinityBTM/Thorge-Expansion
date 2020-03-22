@@ -1,0 +1,26 @@
+{
+	"name": "Large mending wall",
+	"localizedName": "Large Mending Wall"
+	"description": "Medium tolerance for damage, a very durable wall, spans multiple tiles, slowly self heals",
+	"health": 8550,
+	"update": true,
+	"solid": true,
+	"BlockGroup": "walls",
+	"size": 2,
+	"requirements": [
+	    {
+			"item": "temper-alloy",
+			"amount": 15
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 35
+		},
+		{
+			"item": "thorium",
+			"amount": 70
+		}
+	],
+	"category": "defense",
+	"research": "surge-wall"
+}

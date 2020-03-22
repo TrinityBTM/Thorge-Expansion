@@ -1,0 +1,117 @@
+{
+	"type": "BurstTurret",
+	"name": "Streamer",
+	"description": "A missile firing turret, shoots a stream of small missile that follows the enemy",
+	"health": 1200,
+	"size": 3,
+	"reload": 360,
+	"range": 265,
+	"recoil": 2,
+	"shootShake": 4,
+	"ammoUseEffect": "none",
+	"inaccuracy": 180,
+	"shots": 20,
+	"burstSpacing": 2,
+	"spread": 5,
+	"xRand": 5,
+	"rotatespeed": 6,
+	"shootSound": "shootBig",
+	"ammo": {
+		"pyratite": {
+		    "type": "MissileBulletType",
+			"speed": 4,
+			"damage": 2,
+			"bulletWidth": 4,
+			"bulletHeight": 12,
+			"hitEffect": "pulverize",
+			"shootEffect": "shootBig",
+			"smokeEffect": "fireSmoke",
+			"lifetime": 200,
+			"pierce": false,
+			"hitSize": 4,
+			"homingPower": 20,
+			"homingRange": 250,
+			"weaveScale": 8,
+            "weaveMag": 2,
+			"incendAmount": 8,
+			"incendSpread": 4,
+			"incendChance": 1
+		},
+
+        "blast-compound": {
+		    "type": "MissileBulletType",
+			"speed": 4,
+			"damage": 2,
+			"bulletWidth": 4,
+			"bulletHeight": 12,
+			"shootEffect": "shootBig",
+			"smokeEffect": "pulverizeRed",
+			"hitEffect": "blastExplosion",
+			"despawnEffect": "blastExplosion",
+			"pierce": false,
+			"lifetime": 200,
+			"homingPower": 20,
+			"homingRange": 250,
+			"weaveScale": 8,			
+			"weaveMag": 2,
+			"splashDamageRadius": 80,
+			"splashDamage": 8
+		},
+		
+		"surge-alloy": {
+		    "type": "MissileBulletType",
+			"speed": 4,
+			"damage": 2,
+			"bulletWidth": 4,
+			"bulletHeight": 12,
+			"shootEffect": "shootBig",
+			"smokeEffect": "lightningShoot",
+			"pierce": false,
+			"hitEffect": "none",
+			"lifetime": 200,
+			"homingPower": 20,
+			"homingRange": 250,
+			"weaveScale": 8,			
+			"weaveMag": 2,
+			"incendAmount": 8,
+			"splashDamageRadius": 40,
+			"splashDamage": 4,			
+			"fragBullets": 1,
+			"hitSound": "energyExplosion",
+			"fragBullet":{
+		    	"type": "BombBulletType",
+		    	"speed": 0,
+		    	"damage": 2,
+		    	"bulletWidth": 0,
+		    	"bulletHeight": 0,
+		    	"lifetime": 1,
+		    	"lightining": 4,
+		    	"lightningLength": 10
+		    	}
+		}
+	},
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 650
+		},
+		{
+			"item": "graphite",
+			"amount": 500
+		},
+		{
+			"item": "thorium",
+			"amount": 400
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 450
+		},
+		{
+			"item": "plastanium",
+			"amount": 550
+		}
+	],
+	"category": "turret",
+	"research": "meltdown"
+}

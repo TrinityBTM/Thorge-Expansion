@@ -1,0 +1,20 @@
+{
+  //"type": "battery",
+  "name": "[red](Beta)[]Compact battery",
+  "size": 4,
+  "description": "A very compact battery, holds huge amount of energy, releases a storm when destroyed",
+  "health": 640,
+  "canOverdrive": true,
+  "category": "power",
+  "research": "battery-large",
+  "BuildVisibility": "shown",
+  "consumes": {
+    "powerBuffered": "300000.0"
+	},
+  "requirements": [
+    { "item": "lead", "amount": 200 },
+    { "item": "titanium", "amount": 80 },
+    { "item": "silicon", "amount": 80 }
+    { "item": "plastanium", "amount": 80 }
+  ],
+}

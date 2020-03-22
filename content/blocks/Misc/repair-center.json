@@ -1,0 +1,26 @@
+{
+	"name": "Repair Center",
+	"description": "While heals slower than the early iteration of repair point, it pays off the range required to heal while being far from the vicinity of enemies",
+	"type": "RepairPoint",
+	"health": 360,
+	"size": 3,
+	"powerUse": 2,
+	"repairRadius": 280,
+	"repairSpeed": 0.04,
+	"requirements": [
+	  {
+		"item": "metaglass",
+		"amount": 80
+	  }, 
+	 {
+		"item": "thorium",
+		"amount": 100
+	  }, 
+	  {
+	 	"item": "plastanium",
+		"amount": 120
+	  }
+	],
+	"category": "units",
+	"research": "repair-point"
+}

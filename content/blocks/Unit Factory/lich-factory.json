@@ -1,0 +1,57 @@
+{
+	"name": "Lich factory",
+	"description": "Produces heavy Air gunships, capable of attacking large areas",
+	"type": "UnitFactory",
+	"unitType": "lich",
+	"size": 4,
+	"produceTime": 3800,
+	"health": 640,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 15.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 250
+				},
+				{
+					"item": "graphite",
+					"amount": 120
+				},
+				{
+					"item": "titanium",
+					"amount": 250
+				},
+				{
+					"item": "plastanium",
+					"amount": 150
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 800
+		},
+		{
+			"item": "titanium",
+			"amount": 1000
+		},
+		{
+			"item": "silicon",
+			"amount": 800
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 250
+		},
+		{
+			"item": "plastanium",
+			"amount": 150
+		}
+	]
+}

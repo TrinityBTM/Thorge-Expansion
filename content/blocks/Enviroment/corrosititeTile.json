@@ -1,0 +1,7 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "corrositite",
+	"oreDefault": true,
+    "oreThreshold": 0.846,
+    "oreScale": 24.428572
+}

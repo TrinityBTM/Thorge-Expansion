@@ -1,0 +1,36 @@
+{
+	"type": "groundUnit",
+	"name": "Rupture Mech",
+	"description": "Created to attack enemies behind it, released a sudden burst of bullets flying in all directions ",
+	"speed": 0.05,
+	"health": 580,
+	"range": 60,
+	"rotatespeed": 0.2,
+	"drag": 0.2,
+	"flying": false,
+	"mass": 4,
+	"weapon": {
+		"name": "Rupture-equip",
+		"length": 2.5,
+		"reload": 240,
+		"alternate": true,
+		"width": 5.5,
+		"shots": 40,
+		"shotDelay": 0.5,
+		"spacing": 15,
+		"shootSound": "shootBig",
+		"bullet": {
+			"type": "BasicBulletType",
+			"speed": 5,
+			"damage": 15,
+			"bulletWidth": 5,
+			"bulletHeight": 8,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootSmallFlame",
+			"hitEffect": "hitBulletSmall",
+			"lifetime": 38,
+			"inaccuracy": 1,
+			"bulletShrink": 0
+		}
+	}
+}

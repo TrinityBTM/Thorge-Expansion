@@ -1,0 +1,38 @@
+{
+    "type": "groundUnit",
+    "name": "Magma",
+    "description": "Modified Eruptor designed to be filled to the top with inciendary explosives,",
+    "speed": 0.18,
+    "health": 400,
+    "range": 10,
+    "drag": 0.2,
+    "rotatespeed": 0.1,
+    "mass": 2.2,
+    "weapon": {
+        "name": "flame-equip",
+        "length": 0,
+        "reload": 1,
+        "alternate": true,
+        "shootSound": "Cannon",
+        "bullet": {
+            "type": "BasicBulletType",
+            "keepVelocity": false,
+            "speed": 1,
+            "damage": 1,
+            "bulletWidth": 0,
+            "bulletHeight": 0,
+            "instantDisappear": true,
+            "lifetime": 30,
+            "splashDamageRadius": 30,
+            "splashDamage": 80,
+            "shootEffect": "explosion",
+            "smokeEffect": "bigShockwave",
+            "incendAmount": 10,
+            "incendSpread": 30,
+            "incendChance": 30,
+            "killShooter": true,
+            "fragBullets": 20,
+            "fragBullet": "bombIncendiary"
+        }
+    }
+}

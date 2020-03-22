@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Temperite alloy",
+	"description": "A material with unnatural durability, used with blocks that required extreme structural support or as a concussive ammo",
+	"explosiveness": 0.1,
+	"radioactivity": 0.5,
+	"cost": 3.0,
+	"color": "b1ab6e"
+}

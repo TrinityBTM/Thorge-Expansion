@@ -1,0 +1,47 @@
+{
+	"type": "groundUnit",
+	"name": "Discharger",
+	"description": "Projects a storm around itself, it's attacks goes through blocks",
+	"speed": 0.01,
+	"health": 440,
+	"range": 1200,
+	"drag": 0.2,
+	"rotatespeed": 0.05,
+	"mass": 30,
+	"weapon": {
+		"name": "discharger-equip",
+		"length": 1.5,
+		"width": 8.0,
+		"reload": 120,
+		"alternate": true,
+		"shots": 1,
+		"spacing":0,
+		"shootSound": "missile",
+		"bullet": {
+		    "type": "BasicBulletType",
+			"speed": 8.0,
+			"damage": 1,
+			"bulletWidth": 4,
+			"bulletHeight": 8,
+			"hitEffect": "none",
+			"lifetime": 60,
+			"splashDamageRadius": 0,
+			"splashDamage": 0,
+			"hitSound": "spark",
+			"instantDisappear": true,
+			"fragBullets": 4,
+			"fragBullet": {
+				"type": "BombBulletType",
+			    "speed": 90,
+		     	"damage": 4,
+			    "bulletWidth": 0,
+			    "bulletHeight": 0,
+			    "hitEffect": "none",
+			    "lifetime": 2,
+			    "lightining": 3,
+			    "lightningLength": 5,
+			    "hitSound": "spark"
+			}
+		}
+	}
+}

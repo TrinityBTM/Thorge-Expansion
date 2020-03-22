@@ -1,0 +1,67 @@
+{
+	"type": "Separator",
+	"name": "Centrifuge",
+	"description": "Works faster than a regular separator, additionally can separate thorium from slag",
+	"health": 360,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 5,
+	"size": 3,
+	"spinnerSpeed": 10,
+	"category": "crafting",
+	"research": "separator",
+
+	"results": [
+	    {
+			"item": "copper",
+			"amount": 10
+		},
+		{
+			"item": "lead",
+			"amount": 6
+		},
+		{
+			"item": "graphite",
+			"amount": 4
+		},
+		{
+			"item": "titanium",
+			"amount": 4
+		},
+		{
+			"item": "thorium",
+			"amount": 2
+		}
+	],
+
+	"consumes": {
+		"power": 3.2,
+		"liquid": {
+			"liquid": "slag",
+			"amount": 0.096
+		}
+	},
+
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 350
+		},
+		{
+			"item": "lead",
+			"amount": 250
+		},
+		{
+			"item": "silicon",
+			"amount": 100
+		},
+		{
+			"item": "titanium",
+			"amount": 200
+		},
+		{
+			"item": "thorium",
+			"amount": 100
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"type": "resource",
+	"name": "Corrositite",
+	"description": "A substance with a dormant potential, can be used to make the most potent [#ffdddd]explosive[] or [#ff9900]inciendary[] substance, or can be mixed with different substances to make a corrosive [#aaffaa]acid[]",
+	"explosiveness": 0.4,
+	"flammability": 0.5,
+	"color": "c8b771"
+}
