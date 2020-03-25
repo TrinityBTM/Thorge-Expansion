@@ -1,8 +1,21 @@
+![](TELogo.png)
+
 THORGE EXPANSION
 =========
 ***
 Updates:
-•Added new stuff
+
+-Rebalanced stuff
+
+-Added the image
 ***
-Thorge expansion adds tons extra content from
-mechs, blocks, turrets, etc, 
+Thorge expansion aims to add tons extra content varying from
+
+**MECHS**: like inciendary crawlers or even nuclear crawlers
+
+**BLOCKS**: like Self healing wall, nuclear detonator
+
+**TURRETS**: A GIANT LASER
+and much more
+***
+right now there's not much but in the future the mod will get big
