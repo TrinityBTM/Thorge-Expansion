@@ -22,26 +22,29 @@
 			"speed": 12,
 			"knockback": 0.5,
 			"ammoMultiplier": 1,
-			"liquid": "water"
+			"liquid": "water",
+			"status": "wet"
 		},
 
 		"slag": {
 			"type": "LiquidBulletType",
-			"drag": 0.08,
+			"drag": 0.06,
 			"speed": 12,
 			"knockback": 0.1,
 			"ammoMultiplier": 1,
-			"damage": 2,
-			"liquid": "slag"
+			"damage": 4,
+			"liquid": "slag",
+			"status": "melting"
 		},
 
 		"cryofluid": {
 			"type": "LiquidBulletType",
-			"drag": 0.01,
+			"drag": 0.03,
 			"speed": 12,
 			"knockback": 0.3,
 			"ammoMultiplier": 1,
-			"liquid": "cryofluid"
+			"liquid": "cryofluid",
+			"status": "wet"
 		},
 
 		"oil": {
@@ -50,15 +53,16 @@
 			"speed": 12,
 			"knockback": 0.2,
 			"ammoMultiplier": 1,
-			"liquid": "oil"
+			"liquid": "oil",
+			"status": "tarred"
 		},
 		
 		"acidLiquid": {
 			"type": "LiquidBulletType",
-			"drag": 0.07,
+			"drag": 0.05,
 			"speed": 12,
 			"knockback": 0.2,
-			"damage": 3,
+			"damage": 5,
 			"liquid": "acidLiquid",
 			"ammoMultiplier": 1,
             "status": {             

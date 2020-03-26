@@ -21,7 +21,22 @@
         },
     },
     "requirements": [
-        { "item": "copper", "amount": 10 }
+        {
+			"item": "lead",
+			"amount": 500
+		},
+		{
+			"item": "titanium",
+			"amount": 375
+		},
+		{
+			"item": "silicon",
+			"amount": 125
+		},
+		{
+			"item": "plastanium",
+			"amount": 60
+		}
     ],
     "category": "effect",
     "research": "force-projector"

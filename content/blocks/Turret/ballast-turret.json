@@ -1,7 +1,7 @@
 {
     //"type": "ItemTurret",
     "name": "Ballast",
-    "description": "A large calibre railgun, launches projectiles at near light speed, Penetrating through multiple units, Some ammo can also bounce dealing more damage",
+    "description": "A large calibre railgun, launches projectiles at terifying speeds, ineffective against groups",
     "health": 2500,
     "size": 5,
     "reload": 360,
@@ -17,7 +17,7 @@
     "ammo": {
         "thorium": {
             "speed": 20,
-            "damage": 16,
+            "damage": 360,
             "bulletWidth": 8,
             "bulletHeight": 30,
             "shootEffect": "shootBigSmoke",
@@ -30,7 +30,7 @@
         },
         "thorge": {
             "speed": 22,
-            "damage": 40,
+            "damage": 550,
             "bulletWidth": 8,
             "bulletHeight": 30,
             "drag": 0.016,

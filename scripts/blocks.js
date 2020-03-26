@@ -8,7 +8,7 @@ const NDBlast = newEffect(NuclearBlastEffectLifeTime, e => {
         
     Effects.shake(3.2, 3.2, e.x, e.y)   
     Draw.color(Color.valueOf(NuclearBlastColorA), Color.valueOf(NuclearBlastColorB), e.fout());
-    Draw.alpha(e.fout() * 0.4);
+    Draw.alpha(e.fout() * 1);
     Draw.blend(Blending.additive);
     Draw.rect("thorge-ex-smoke", e.x, e.y, 400, 400);
     Draw.blend();
@@ -47,12 +47,12 @@ const NDBlast4 = newEffect(NuclearBlastEffectLifeTime, e2 => {
       
       });          
  
-const NDBlast5 = newEffect(60, e2 => {
+const NDBlast5 = newEffect(100, e2 => {
 
       Draw.color(Color.valueOf("ffffff"));
       Draw.alpha(e2.fout() * 1);
       Draw.blend(Blending.additive);
-      Draw.rect("thorge-ex-flash", e2.x, e2.y, 5000, 5000);
+      Draw.rect("thorge-ex-flash", e2.x, e2.y, 920, 920);
       Draw.blend();
       
       });  
@@ -67,6 +67,8 @@ detonatorBullet.splashDamageRadius = 1200;
 detonatorBullet.splashDamage = 1200;
 detonatorBullet.incendAmount = 120;
 detonatorBullet.lifetime = 1;
+detonatorBullet.fragBullets = 20;
+detonatorBullet.fragBullet = Bullets.bombIncendiary;
 //detonatorBullet.hitSound = sounds.Nuke;
 //detonatorBullet.killShooter = true;
  

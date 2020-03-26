@@ -19,8 +19,8 @@
 	"shootType": {
 		"keepVelocity": false,
 		"type": "BasicBulletType",
-		"speed": 15.0,
-		"damage": 12,
+		"speed": 12.0,
+		"damage": 32,
 		"bulletWidth": 20,
 		"bulletHeight": 10,
 		"shootEffect": "shootBig2",
@@ -30,7 +30,6 @@
 		"inaccuracy": 3,
 		"frontColor": "e5edff",
 		"backColor": "9bbdff",
-		"trailColor": "e5edff",
 		"splashDamage": 12,
 		"splashDamageRadius": 15,
 		"bulletShrink": 0,

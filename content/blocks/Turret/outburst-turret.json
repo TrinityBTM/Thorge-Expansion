@@ -17,7 +17,6 @@
 		"pyratite": {
 			"type": "BombBulletType",
 			"speed": 0,
-			"damage": 1,
 			"bulletWidth": 0,
 			"bulletHeight": 0,
 			"hitEffect": "impactShockwave",
@@ -37,7 +36,6 @@
 		"blast-compound": {
 			"type": "BombBulletType",
 			"speed": 0,
-			"damage": 2,
 			"bulletWidth": 0,
 			"bulletHeight": 0,
 			"hitEffect": "nuclearShockwave",
@@ -46,7 +44,7 @@
 			"lifetime": 5,
 			"hitSize": 8,
 			"splashDamageRadius": 200,
-			"splashDamage": 20,
+			"splashDamage": 80,
 			"ammoMultiplier": 2,
             "instantDisappear": true,			
 			"reloadMultiplier": 1
@@ -55,7 +53,6 @@
 		"surge-alloy": {
 			"type": "BombBulletType",
 			"speed": 0,
-			"damage": 2,
 			"bulletWidth": 0,
 			"bulletHeight": 0,
 			"hitEffect": "teleportOut",
@@ -64,7 +61,7 @@
 			"lifetime": 5,
 			"hitSize": 8,
 			"splashDamageRadius": 200,
-			"splashDamage": 15,
+			"splashDamage": 40,
 			"lightining": 4,
 			"lightningLength": 20,
 			"ammoMultiplier": 1,
@@ -75,7 +72,6 @@
 		"plastanium": {
 			"type": "BombBulletType",
 			"speed": 0,
-			"damage": 2,
 			"bulletWidth": 0,
 			"bulletHeight": 0,
 			"hitEffect": "nuclearShockwave",
@@ -84,11 +80,11 @@
 			"lifetime": 5,
 			"hitSize": 8,
 			"splashDamageRadius": 200,
-			"splashDamage": 10,
-			"fragBullets": 20,
+			"splashDamage": 15,
 			"ammoMultiplier": 3,
 			"reloadMultiplier": 0.8,
-            "instantDisappear": true,			
+            "instantDisappear": true,		
+            "fragBullets": 20,
 			"fragBullet": {
 				"damage": 30,
 				"speed": 4,
@@ -125,5 +121,5 @@
 		}
 	],
 	"category": "turret",
-	"research": "meltdown"
+	"research": "fuse"
 }

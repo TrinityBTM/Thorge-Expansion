@@ -2,7 +2,7 @@
 	"type": "groundUnit",
 	"name": "Reinstator",
 	"description": "Protects your future, Uses Homing Shard Gatling",
-	"speed": 0.003,
+	"speed": 0.01,
 	"maxVelocity": 0.68,
 	"flying": false,
 	"drag": 0.2,
@@ -26,7 +26,7 @@
 		"velocityRnd": 0.4,
 		"shootSound": "shootBig",
 		"bullet": {
-		 "type": "ArtilleryBulletType",
+		    "type": "ArtilleryBulletType",
 			"speed": 8,
 			"damage": 22,
 			"bulletWidth": 4,
