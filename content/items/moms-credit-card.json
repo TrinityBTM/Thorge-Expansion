@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Mom's credit card",
+	"description": "[red]I know you want it",
+	"explosiveness": 999999999,
+	"radioactivity": 9999999999,
+	"flammability": 0,
+	"cost": 3.0,
+	"color": "ff7f00"
+}
