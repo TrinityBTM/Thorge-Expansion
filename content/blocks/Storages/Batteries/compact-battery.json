@@ -1,5 +1,5 @@
 {
-  //"type": "battery",
+  "type": "battery",
   "name": "[red](Beta)[]Compact battery",
   "size": 4,
   "description": "A very compact battery, holds huge amount of energy, releases a storm when destroyed",
