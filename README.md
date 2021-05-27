@@ -1,13 +1,20 @@
 ![](TELogo.png)
 
+
+DEPRECATED 5.0 MOD
+=========
+**This mod is no longer maintained** still open here,
+But there will be no longer guaranteed updates to this version, However there is a planned future version, **Release date is currently unknown** but it is in development
+***
+
+
+
+
 THORGE EXPANSION
 =========
-***
-Updates:
+**Updates:**
 
--Rebalanced stuff
-
--Added the image
+-Deprecated
 ***
 Thorge expansion aims to add tons extra content varying from
 
@@ -17,5 +24,5 @@ Thorge expansion aims to add tons extra content varying from
 
 **TURRETS**: A GIANT LASER
 and much more
-***
+
 right now there's not much but in the future the mod will get big
